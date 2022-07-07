@@ -1,0 +1,10 @@
+version: '3'
+services:
+  # my-app:
+  # image: ${docker-registry}/my-app:1.0
+  # ports:
+  # - 3000:3000
+  python:
+    image: python
+    ports:
+      - 5000:5000
